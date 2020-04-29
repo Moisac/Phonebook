@@ -1,7 +1,7 @@
-POST http://localhost:3001/api/phonebook HTTP/1.1
+POST https://hidden-plateau-61657.herokuapp.com/api/phonebook HTTP/1.1
 content-type: application/json
 
 {
-    "name": "test morgan 2",
+    "name": "test heroku deployment 2",
     "number": "1234"
 }
